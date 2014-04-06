@@ -1,0 +1,1 @@
+I have changed the game so the score goes up when user touches the red ball and if user misses the red ball gains speed.  User loses when missing 3 times.  Original code is from Futurelearn "Begin programming: build your first mobile game" from University of Reading.
