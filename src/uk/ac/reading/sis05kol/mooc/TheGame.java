@@ -35,8 +35,8 @@ public class TheGame extends GameThread{
 	@Override
 	public void setupBeginning() {
 		//Initialise speeds
-		mBallSpeedX = 300;
-		mBallSpeedY = 300;
+		mBallSpeedX = 200;
+		mBallSpeedY = 200;
 		
 		//Place the ball in the middle of the screen.
 		//mBall.Width() and mBall.getHeigh() gives us the height and width of the image of the ball
@@ -81,8 +81,8 @@ public class TheGame extends GameThread{
 			}
 			
 			mCounter = mCounter+1;
-			mBallSpeedX = x-2*mBallSpeedX;
-			mBallSpeedY = y-2*mBallSpeedY;
+			mBallSpeedX = x-1.5*mBallSpeedX;
+			mBallSpeedY = y-1.5*mBallSpeedY;
 		}
         
 	}
